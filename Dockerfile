@@ -36,6 +36,7 @@ RUN chmod +x /usr/bin/docker-entrypoint.py
 USER www-data
 VOLUME /var/lib/sogs
 WORKDIR /var/lib/sogs
+EXPOSE 8080
 
 #ENV SOGS_DB_URL=sqlite:///var/lib/sogs/sogs.db
 
